@@ -1,3 +1,11 @@
+
+// As soon as the page will load along with the DOM contents
+// Get the elements and add event listeners to them to start game
+
+document.addEventListener("DOMContentLoaded", function() {
+
+})
+
 function runGame() {
 
 }
@@ -25,5 +33,5 @@ function incrementWrongAnswer() {
 
 function displayQuestion() {
 
-    
+
 }
