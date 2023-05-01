@@ -3,6 +3,7 @@
 // Get the elements and add event listeners to them to start game
 
 document.addEventListener("DOMContentLoaded", function() {
+    let buttons = document.getElementsByTagName("button")
 
 })
 
