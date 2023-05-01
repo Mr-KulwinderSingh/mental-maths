@@ -57,6 +57,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    margin-bottom: px;
     display: flex;
     align-items: center;
     Justify-content: center;
@@ -67,14 +68,41 @@ body {
 
 .big-digit-generator {
     margin-top: 20px;
-    margin-left: 325px;
+    margin-left: 350px;
+    display: flex;
 }
 
 .big-btn {
 
     height: 30px;
     width: 50px;
-    margin: auto;
+    background: linear-gradient(white, blue);
+    border-radius: 5px;
+    
+}
+.small-btn {
+
+    height: 30px;
+    width: 50px;
+    background: linear-gradient(white, blue);
+    border-radius: 5px;
+   
+}
+.small-digit-generator {
+    margin-left: 300px;
+    display: flex;
+}
+
+.second-small-digit-generator {
+    margin-left: 300px;
+    display: flex;
+
+}
+
+.third-small-digit-generator {
+    margin-left: 300px;
+    display: flex;
+
 }
 
 .sbmt-btn-green {
@@ -82,7 +110,7 @@ body {
     height: 50px;
     border: 1px solid blue;
     border-radius: 5px 5px 5px 5px;
-    margin-top: 50px;
+    
     
 }
 
@@ -92,7 +120,7 @@ body {
     float: left;
     margin-left: 20px;
     text-align: end;
-    padding-top: 100px ;
+    
 }
 
 .incorrect-scores-here {
@@ -100,7 +128,8 @@ body {
     float: right;
     margin-right: 20px;
     text-align: end;
-    padding-top: 100px ;
+    margin-bottom: 50px;
+   
 }
 
 .your-answer {
@@ -108,9 +137,10 @@ body {
 }
 
 #answer-box {
-    margin-top: 50px;
+    
+    margin-top: 10px;
     margin-left: 350px;
-    height: 55px;
+    height: 50px;
     width: 80px;
     border: 1px solid blue;
     border-radius: 5px 5px 5px 5px;
