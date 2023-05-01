@@ -13,25 +13,51 @@
         <h1 class="heading">
             NUMBERS TO PLAY WITH
                 </h1>
+
+                <input id='target' type="number">
+
         <div class="question-digits">
-            <span id="digit1">0</span>
+
+            <span id="operand1">0</span>
             <span id="operator1"></span>
-            <span id="digit2">0</span>
+            <span id="operand2">0</span>
             <span id="operator2"></span>
-            <span id="digit3">0</span>
+            <span id="operand3">0</span>
             <span id="operator3"></span>
-            <span id="digit4">0</span>
+            <span id="operand4">0</span>
             <span id="operator4"></span>
-            <span id="digit5">0</span>
+            <span id="operand5">0</span>
             <span id="operator5"></span>
-            <span id="digit6">0</span>
+            <span id="operand6">0</span>
+        </div>
 
-            <p class="your-answer"> Ans:</p>
-            <input id="answer-box" type="number">
-
-            <button data-type="submit" class="sbmt-btn-green"> Submit your Answer</button>
+        <div class="big-digit-generator">
+            <button class="big-btn"></button>
+            <button class="big-btn"></button>
+            <button class="big-btn"></button>
+            <button class="big-btn"></button>
+        </div>
+        <div class="small-digit-generator">
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+        </div>
+        <div class="2nd-small-digit-generator">
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
+            <button class="small-btn"></button>
 
         </div>
+        <p class="your-answer"> Ans:</p>
+            <input id="answer-box" type="number">
+        <button data-type="submit" class="sbmt-btn-green"> Submit your Answer</button>
+
 
         <div class="score-area">
             <p class ="correct-scores-here">Correct <span id="scores">0</span></p>
