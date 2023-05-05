@@ -87,7 +87,7 @@ body {}
 }
 
 .digit-btns {
-    border: 1px solid red;
+    
     width: 55%;
     margin: 0 auto;
     place-items: center;
@@ -116,7 +116,7 @@ body {}
     margin: 0 auto;
     justify-content: center;
 
-    border: 1px solid blue;
+   
 
 }
 

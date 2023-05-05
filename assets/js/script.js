@@ -43,6 +43,21 @@ function runGame(gameType) {
     let num10 = Math.floor(Math.random() * 10) + 1;
     let num11 = Math.floor(Math.random() * 10) + 1;
     let num12 = Math.floor(Math.random() * 10) + 1;
+    let num13 = Math.floor(Math.random() * 10) + 1;
+    let num14 = Math.floor(Math.random() * 10) + 1;
+    let num15 = Math.floor(Math.random() * 10) + 1;
+    let num16 = Math.floor(Math.random() * 10) + 1;
+    let num17 = Math.floor(Math.random() * 10) + 1;
+    let num18 = Math.floor(Math.random() * 10) + 1;
+    let num19 = Math.floor(Math.random() * 10) + 1;
+
+
+
+
+
+
+
+
 
     if (gameType === "big-number") {
         displayBigNumbersQuestion1(num1);
@@ -55,9 +70,33 @@ function runGame(gameType) {
     } else if (gameType === "small-number") {
         displaySmallNumbersQuestion1(num5);
     } else if (gameType === "small-number2") {
-        displaySmallNumbersQuestion3(num6);
+        displaySmallNumbersQuestion2(num6);
     } else if (gameType === "small-number3") {
-        displaySmallNumbersQuestion4(num7);
+        displaySmallNumbersQuestion3(num7);
+    } else if (gameType === "small-number4") {
+         displaySmallNumbersQuestion4(num8);
+    } else if (gameType === "small-number5") {
+        displaySmallNumbersQuestion5(num9);
+    } else if (gameType === "small-number6") {
+        displaySmallNumbersQuestion6(num10);
+    } else if (gameType === "small-number7") {
+        displaySmallNumbersQuestion7(num11);
+    } else if (gameType === "small-number8") {
+        displaySmallNumbersQuestion8(num12);
+    } else if (gameType === "small-number9") {
+        displaySmallNumbersQuestion9(num13);
+    } else if (gameType === "small-number10") {
+        displaySmallNumbersQuestion10(num14);
+    } else if (gameType === "small-number11") {
+        displaySmallNumbersQuestion11(num15);
+    } else if (gameType === "small-number12") {
+        displaySmallNumbersQuestion12(num16);
+    } else if (gameType === "small-number13") {
+        displaySmallNumbersQuestion13(num17);
+    } else if (gameType === "small-number14") {
+        displaySmallNumbersQuestion14(num18);
+    } else if (gameType === "small-number15") {
+        displaySmallNumbersQuestion15(num19);
     } else {
         alert(`unknown game type: ${gameType}`);
         throw `unknown game type ${gameType}. Aborting!`;
@@ -125,20 +164,66 @@ function displaySmallNumbersQuestion3(operand1) {
 
 }
 
-function displaySmallNumbers() {
+function displaySmallNumbersQuestion4(operand2) {
+     document.getElementById('operand2').textContent = operand2;
+    document.getElementById('operator').textContent = "";
+}
 
+function displaySmallNumbersQuestion5(operand3) {
+     document.getElementById('operand3').textContent = operand3;
+    document.getElementById('operator').textContent = "";
+}
+
+function displaySmallNumbersQuestion6(operand4) {
+     document.getElementById('operand4').textContent = operand4;
+    document.getElementById('operator').textContent = "";
+}
+function displaySmallNumbersQuestion7(operand5) {
+     document.getElementById('operand5').textContent = operand5;
+    document.getElementById('operator').textContent = "";
+}
+
+function displaySmallNumbersQuestion8(operand6) {
+     document.getElementById('operand6').textContent = operand6;
+    document.getElementById('operator').textContent = "";
+}
+
+function displaySmallNumbersQuestion9(operand1) {
+    document.getElementById('operand1').textContent = operand1;
+    document.getElementById('operator').textContent = "";
+
+}
+function displaySmallNumbersQuestion10(operand2) {
+    document.getElementById('operand2').textContent = operand2;
+    document.getElementById('operator').textContent = "";
 
 }
 
-function displaySecondSmallNumbers() {
-
-
+function displaySmallNumbersQuestion11(operand3) {
+     document.getElementById('operand3').textContent = operand3;
+    document.getElementById('operator').textContent = "";
 }
 
-function displayThirdSmallNumbers() {
-
-
+function displaySmallNumbersQuestion12(operand4) {
+     document.getElementById('operand4').textContent = operand4;
+    document.getElementById('operator').textContent = "";
 }
+
+function displaySmallNumbersQuestion13(operand5) {
+     document.getElementById('operand5').textContent = operand5;
+    document.getElementById('operator').textContent = "";
+}
+function displaySmallNumbersQuestion14(operand6) {
+     document.getElementById('operand6').textContent = operand6;
+    document.getElementById('operator').textContent = "";
+}
+
+function displaySmallNumbersQuestion15(operand1) {
+     document.getElementById('operand1').textContent = operand1;
+    document.getElementById('operator').textContent = "";
+}
+
+
 
 function myFunction() {
     let play = document.getElementById('play-instructions');
