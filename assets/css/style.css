@@ -1,36 +1,84 @@
 body {
 
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .heading {
 
     font-size: 90%;
     text-align: center;
-     
+
+}
+
+#how-to {
+
+    height: 30px;
+    float: left;
+    color: blue;
+}
+
+#play-instructions {
+    top: 30px;
+    margin: 10px;
+    font-size: 50%;
+    position: absolute;
+    width: 30%;
+    height: 75%;
+    color: rgb(0, 89, 255);
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#about-game {
+
+    height: 30px;
+    float: right;
+    color: blue;
+}
+
+#info {
+    top: 30px;
+    margin: 10px;
+    font-size: 50%;
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    color: rgb(0, 89, 255);
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
 }
 
 #target {
 
     height: 60px;
     width: 85px;
-    margin-left: 400px;
+    margin-left: 300px;
+    position: absolute;
+
     border-radius: 5px;
-    
+
 }
 
 
 .game-area {
 
     width: 55%;
-    height:0;
+    height: 0;
 
     font-size: 250%;
     font-family: 'Courier New', Courier, monospace;
@@ -39,16 +87,16 @@ body {
     border: 2px solid black;
     color: blue;
     box-shadow: 5px 5px 5px 5px;
-    
+
     position: relative;
     Border-radius: 25px;
 
 
     background-color: rgb(251, 244, 120);
-    
-    
-    
-    
+
+
+
+
 }
 
 .question-digits {
@@ -63,7 +111,7 @@ body {
     Justify-content: center;
     text-align: center;
     padding-top: 50px;
-    
+
 }
 
 .big-digit-generator {
@@ -78,16 +126,18 @@ body {
     width: 50px;
     background: linear-gradient(white, blue);
     border-radius: 5px;
-    
+
 }
+
 .small-btn {
 
     height: 30px;
     width: 50px;
     background: linear-gradient(white, blue);
     border-radius: 5px;
-   
+
 }
+
 .small-digit-generator {
     margin-left: 300px;
     display: flex;
@@ -106,31 +156,31 @@ body {
 }
 
 .sbmt-btn-green {
-    
+
     height: 50px;
     border: 1px solid blue;
     border-radius: 5px 5px 5px 5px;
     background-color: red;
-    
-    
+
+
 }
 
 
 .correct-scores-here {
-    
+
     float: left;
     margin-left: 20px;
     text-align: end;
-    
+
 }
 
 .incorrect-scores-here {
-    
+
     float: right;
     margin-right: 20px;
     text-align: end;
     margin-bottom: 50px;
-   
+
 }
 
 .your-answer {
@@ -138,7 +188,7 @@ body {
 }
 
 #answer-box {
-    
+
     margin-top: 10px;
     margin-left: 350px;
     height: 50px;

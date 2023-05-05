@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,21 @@
 
     <title>Document</title>
 </head>
+
 <body>
     <div class="game-area">
         <h1 class="heading">
             MENTAL MATHS!
-                </h1>
+        </h1>
 
-                <input id='target' type="number">
+        <button id="how-to" data-type="How-to-play">How to Play</button>
+        <div id="play-instructions"></div>
+
+        <button id="about-game" data-type="information">About the Game</button>
+        <div id="info"></div>
+
+
+        <input id='target' type="number">
 
         <div class="question-digits">
 
@@ -64,18 +73,19 @@
 
         </div>
         <p class="your-answer"> Ans:</p>
-            <input id="answer-box" type="number">
+        <input id="answer-box" type="number">
         <button data-type="submit" class="sbmt-btn-green"> Reset Game!</button>
 
 
         <div class="score-area">
-            <p class ="correct-scores-here">Correct <span id="scores">0</span></p>
+            <p class="correct-scores-here">Correct <span id="scores">0</span></p>
             <p class="incorrect-scores-here">Incorrect <span id="scores">0</span></p>
         </div>
 
 
-       
+
     </div>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
