@@ -68,8 +68,8 @@ body {}
 .game-area {
 
     height: 30%;
-    width: 40%;
-    padding: 5%;
+    width: 60%;
+    padding: 1%;
     margin: 0 auto;
 
     font-size: 200%;
@@ -87,8 +87,8 @@ body {}
 }
 
 .digit-btns {
-    
-    width: 55%;
+
+    width: 50%;
     margin: 0 auto;
     place-items: center;
 
@@ -116,7 +116,7 @@ body {}
     margin: 0 auto;
     justify-content: center;
 
-   
+
 
 }
 
@@ -132,7 +132,7 @@ body {}
 .small-btn {
 
     height: 30px;
-    width: 50px;
+    width: 45px;
     background: linear-gradient(white, blue);
     border-radius: 5px;
     text-align: center;
