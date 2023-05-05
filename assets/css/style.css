@@ -55,7 +55,7 @@ body {}
 
 #target {
 
-    height: 40px;
+    height: 35px;
     width: 60px;
     margin-left: 300px;
     border-radius: 5px;
@@ -72,8 +72,8 @@ body {}
     padding: 5%;
     margin: 0 auto;
 
-    font-size: 250%;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    font-family: 'Roboto Slab', sans-serif;
 
     border: 2px solid black;
     color: blue;
@@ -93,6 +93,18 @@ body {}
     place-items: center;
 
 
+}
+
+#operand1,
+#operand2,
+#operand3,
+#operand4,
+#operand5,
+#operand6 {
+
+    border: 1px solid rgb(0, 89, 255);
+    border-radius: 5px;
+    font-size: 75%;
 }
 
 .question-digits {
@@ -154,33 +166,34 @@ body {}
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .sbmt-btn-green {
 
-    height: 50px;
+    height: 40px;
     border: 1px solid blue;
     border-radius: 5px 5px 5px 5px;
-    background-color: red;
-
-
-}
-
-
-.correct-scores-here {
-
-    float: left;
-    margin-left: 20px;
-    text-align: end;
+    background: linear-gradient(white, rgb(134, 134, 244));
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
 
 }
 
-.incorrect-scores-here {
+.score-area {
+    border: 1px solid black;
+    height: 40px;
+}
 
-    float: right;
-    margin-right: 20px;
-    text-align: end;
-    margin-bottom: 50px;
+.correct {
+    margin: 20px;
+    font-size: 90%;
+}
+
+.incorrect {
+    margin: 20px;
+    font-size: 90%;
 
 }
 
