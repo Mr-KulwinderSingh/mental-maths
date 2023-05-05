@@ -55,12 +55,12 @@ body {}
 
 #target {
 
-    height: 60px;
-    width: 85px;
+    height: 40px;
+    width: 60px;
     margin-left: 300px;
-    position: absolute;
-
     border-radius: 5px;
+    position: absolute;
+    display: flex;
 
 }
 
@@ -69,7 +69,7 @@ body {}
 
     height: 30%;
     width: 40%;
-    padding: 15%;
+    padding: 5%;
     margin: 0 auto;
 
     font-size: 250%;
@@ -90,6 +90,7 @@ body {}
     border: 1px solid red;
     width: 55%;
     margin: 0 auto;
+    place-items: center;
 
 
 }
@@ -111,12 +112,14 @@ body {}
     margin-top: 20px;
 
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .big-btn {
 
-    height: 30px;
-    width: 50px;
+    height: 35px;
+    width: 55px;
     background: linear-gradient(white, blue);
     border-radius: 5px;
 
@@ -124,8 +127,8 @@ body {}
 
 .small-btn {
 
-    height: 30px;
-    width: 50px;
+    height: 35px;
+    width: 55px;
     background: linear-gradient(white, blue);
     border-radius: 5px;
 
@@ -134,18 +137,23 @@ body {}
 .small-digit-generator {
 
     display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .second-small-digit-generator {
 
     display: flex;
+    justify-content: center;
+    text-align: center;
 
 }
 
 .third-small-digit-generator {
 
     display: flex;
-
+    justify-content: center;
+    text-align: center;
 }
 
 .sbmt-btn-green {
