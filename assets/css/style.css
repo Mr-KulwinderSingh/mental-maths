@@ -76,12 +76,12 @@ body {}
     font-family: 'Roboto Slab', sans-serif;
 
     border: 2px solid black;
-    color: blue;
+    color: rgb(0, 89, 255);
     box-shadow: 5px 5px 5px 5px;
 
     position: relative;
     Border-radius: 25px;
-    background-color: rgb(251, 244, 120);
+    background-color: rgb(248, 246, 194);
 
 
 }
@@ -128,21 +128,14 @@ body {}
     text-align: center;
 }
 
-.big-btn {
-
-    height: 35px;
-    width: 55px;
-    background: linear-gradient(white, blue);
-    border-radius: 5px;
-
-}
-
+.big-btn,
 .small-btn {
 
-    height: 35px;
-    width: 55px;
+    height: 30px;
+    width: 50px;
     background: linear-gradient(white, blue);
     border-radius: 5px;
+    text-align: center;
 
 }
 
@@ -181,20 +174,9 @@ body {}
 
 }
 
-.score-area {
-    border: 1px solid black;
-    height: 40px;
-}
-
-.correct {
-    margin: 20px;
-    font-size: 90%;
-}
-
+.correct,
 .incorrect {
-    margin: 20px;
-    font-size: 90%;
-
+    font-size: 75%;
 }
 
 .your-answer {
