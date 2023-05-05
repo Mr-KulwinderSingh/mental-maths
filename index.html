@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Document</title>
+    <title>Mental Maths!</title>
 </head>
 
 <body>
-    <div class="game-area">
-        <h1 class="heading">
-            MENTAL MATHS!
-        </h1>
 
+
+
+
+
+    <div class="game-area">
         <button id="how-to" data-type="How-to-play">How to Play</button>
         <div id="play-instructions"></div>
 
@@ -23,7 +24,12 @@
         <div id="info"></div>
 
 
-        <input id='target' type="number">
+
+        <h1 class="heading">
+            MENTAL MATHS!
+        </h1>
+
+
 
         <div class="question-digits">
 
@@ -39,48 +45,51 @@
             <span id="operator5"></span>
             <span id="operand6">0</span>
         </div>
+        <div class="digit-btns">
 
-        <div class="big-digit-generator">
-            <button data-type="big-number" class="big-btn"></button>
-            <button data-type="big-number2" class="big-btn"></button>
-            <button data-type="big-number3" class="big-btn"></button>
-            <button data-type="big-number4" class="big-btn"></button>
-        </div>
-        <div class="small-digit-generator">
-            <button data-type="small-number" class="small-btn"></button>
-            <button data-type="small-number2" class="small-btn"></button>
-            <button data-type="small-number3" class="small-btn"></button>
-            <button data-type="small-number4" class="small-btn"></button>
-            <button data-type="small-number5" class="small-btn"></button>
-            <button data-type="small-number6" class="small-btn"></button>
-        </div>
-        <div class="second-small-digit-generator">
-            <button data-type="small-number7" class="small-btn"></button>
-            <button data-type="small-number8" class="small-btn"></button>
-            <button data-type="small-number9" class="small-btn"></button>
-            <button data-type="small-number10" class="small-btn"></button>
-            <button data-type="small-number11" class="small-btn"></button>
-            <button data-type="small-number12" class="small-btn"></button>
+            <div class="big-digit-generator">
+                <button data-type="big-number" class="big-btn"></button>
+                <button data-type="big-number2" class="big-btn"></button>
+                <button data-type="big-number3" class="big-btn"></button>
+                <button data-type="big-number4" class="big-btn"></button>
+            </div>
+            <div class="small-digit-generator">
+                <button data-type="small-number" class="small-btn"></button>
+                <button data-type="small-number2" class="small-btn"></button>
+                <button data-type="small-number3" class="small-btn"></button>
+                <button data-type="small-number4" class="small-btn"></button>
+                <button data-type="small-number5" class="small-btn"></button>
+                <button data-type="small-number6" class="small-btn"></button>
+            </div>
+            <div class="second-small-digit-generator">
+                <button data-type="small-number7" class="small-btn"></button>
+                <button data-type="small-number8" class="small-btn"></button>
+                <button data-type="small-number9" class="small-btn"></button>
+                <button data-type="small-number10" class="small-btn"></button>
+                <button data-type="small-number11" class="small-btn"></button>
+                <button data-type="small-number12" class="small-btn"></button>
 
-        </div>
-        <div class="third-small-digit-generator">
-            <button data-type="small-number13" class="small-btn"></button>
-            <button data-type="small-number13" class="small-btn"></button>
-            <button data-type="small-number15" class="small-btn"></button>
-            <button data-type="small-number16" class="small-btn"></button>
-            <button data-type="small-number17" class="small-btn"></button>
-            <button data-type="small-number18" class="small-btn"></button>
+            </div>
+            <div class="third-small-digit-generator">
+                <button data-type="small-number13" class="small-btn"></button>
+                <button data-type="small-number13" class="small-btn"></button>
+                <button data-type="small-number15" class="small-btn"></button>
+                <button data-type="small-number16" class="small-btn"></button>
+                <button data-type="small-number17" class="small-btn"></button>
+                <button data-type="small-number18" class="small-btn"></button>
 
+            </div>
         </div>
-        <p class="your-answer"> Ans:</p>
-        <input id="answer-box" type="number">
-        <button data-type="submit" class="sbmt-btn-green"> Reset Game!</button>
+    </div>
+    <p class="your-answer"> Ans:</p>
+    <input id="answer-box" type="number">
+    <button data-type="submit" class="sbmt-btn-green"> Reset Game!</button>
 
 
-        <div class="score-area">
-            <p class="correct-scores-here">Correct <span id="scores">0</span></p>
-            <p class="incorrect-scores-here">Incorrect <span id="scores">0</span></p>
-        </div>
+    <div class="score-area">
+        <p class="correct-scores-here">Correct <span id="scores">0</span></p>
+        <p class="incorrect-scores-here">Incorrect <span id="scores">0</span></p>
+    </div>
 
 
 

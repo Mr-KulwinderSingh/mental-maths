@@ -34,15 +34,15 @@ function runGame(gameType) {
     let num1 = Math.floor(Math.random() * 25) + 25;
     let num2 = Math.floor(Math.random() * 25) + 49;
     let num3 = Math.floor(Math.random() * 25) + 75;
-    let num4 = Math.floor(Math.random() * 25) + 95;
+    let num4 = Math.floor(Math.random() * 25) + 90;
     let num5 = Math.floor(Math.random() * 10) + 1;
-    let num6 = Math.floor(Math.random() * 25) + 1;
-    let num7 = Math.floor(Math.random() * 25) + 1;
-    let num8 = Math.floor(Math.random() * 25) + 1;
-    let num9 = Math.floor(Math.random() * 25) + 1;
-    let num10 = Math.floor(Math.random() * 25) + 1;
-    let num11 = Math.floor(Math.random() * 25) + 1;
-    let num12 = Math.floor(Math.random() * 25) + 1;
+    let num6 = Math.floor(Math.random() * 10) + 1;
+    let num7 = Math.floor(Math.random() * 10) + 1;
+    let num8 = Math.floor(Math.random() * 10) + 1;
+    let num9 = Math.floor(Math.random() * 10) + 1;
+    let num10 = Math.floor(Math.random() * 10) + 1;
+    let num11 = Math.floor(Math.random() * 10) + 1;
+    let num12 = Math.floor(Math.random() * 10) + 1;
 
     if (gameType === "big-number") {
         displayBigNumbersQuestion1(num1);
