@@ -106,8 +106,8 @@ function calculateCorrectAnswer() {
         return [operand1 + operand2];
     } else if (operator3 === "x") {
         return [operand3 * operand4];
-    } else if (operator === "+") {
-        return [operand5 + operand6];
+    } else if (operator5 === "/") {
+        return [ operand5 / operand6];
     } else {
         alert(`unimplemented operator ${operator}`);
         throw `unimplemented operator ${operator}. Aborting!`;
@@ -148,13 +148,15 @@ function displayBigNumbersQuestion4(operand4) {
 
 }
 function displaySmallNumbersQuestion1(operand5) {
+    
     document.getElementById('operand5').textContent = operand5;
-    document.getElementById('operator5').textContent = "+";
+    document.getElementById('operator5').textContent = "/";
 
 }
 function displaySmallNumbersQuestion2(operand6) {
+    
     document.getElementById('operand6').textContent = operand6;
-    document.getElementById('operator').textContent = "+";
+    document.getElementById('operator').textContent = "/";
 
    
 }
@@ -179,13 +181,15 @@ function displaySmallNumbersQuestion6(operand4) {
     document.getElementById('operator4').textContent = "+";
 }
 function displaySmallNumbersQuestion7(operand5) {
+    
     document.getElementById('operand5').textContent = operand5;
-    document.getElementById('operator5').textContent = "+";
+    document.getElementById('operator5').textContent = "/";
 }
 
 function displaySmallNumbersQuestion8(operand6) {
+     
     document.getElementById('operand6').textContent = operand6;
-    document.getElementById('operator').textContent = "+";
+    document.getElementById('operator').textContent = "/";
    
 }
 
