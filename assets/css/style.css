@@ -1,5 +1,5 @@
 body {
-    background-color: yellow;
+    ;
 }
 
 .heading {
@@ -17,12 +17,13 @@ body {
 }
 
 #play-instructions {
-    top: 50px;
+
+    margin-left: px;
     font-size: 50%;
-    width: 25%;
+    width: 20%;
     height: 50%;
-    float: left;
-    color: rgb(0, 89, 255);
+
+    color: #070709;
 
     text-align: center;
     align-items: center;
@@ -40,8 +41,9 @@ body {
 
 #info {
 
-    float: right;
+
     top: 30px;
+    float: right;
 
     font-size: 50%;
     width: 25%;
@@ -107,7 +109,7 @@ body {
 #operator4,
 #operator5 {
 
-    display: none;
+    display: ;
 }
 
 

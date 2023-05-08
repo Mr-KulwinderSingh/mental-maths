@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let button of buttons) {
         button.addEventListener("click", function () {
             if (this.getAttribute("data-type") === "submit") {
-                alert("You Clicked Submit!");
+                getTarget();
             } else if (this.getAttribute("data-type") === "How-to-play") {
                 let play = this.getAttribute("data-type");
                 myFunction(play);
@@ -74,7 +74,7 @@ function runGame(gameType) {
     } else if (gameType === "small-number3") {
         displaySmallNumbersQuestion3(num7);
     } else if (gameType === "small-number4") {
-         displaySmallNumbersQuestion4(num8);
+        displaySmallNumbersQuestion4(num8);
     } else if (gameType === "small-number5") {
         displaySmallNumbersQuestion5(num9);
     } else if (gameType === "small-number6") {
@@ -112,9 +112,23 @@ function checkAnswer() {
 }
 
 function calculateCorrectAnswer() {
+    let operand1 = parseInt(document.getElementById('operand1').innerText);
+    let operand2 = parseInt(document.getElementById('operand2').innerText);
+    let operand3 = parseInt(document.getElementById('operand3').innerText);
+    let operand4 = parseInt(document.getElementById('operand4').innerText);
+    let operand5 = parseInt(document.getElementById('operand5').innerText);
+    let operand6 = parseInt(document.getElementById('operand6').innerText);
 
+    let operator1 = document.getElementById("operator1").innerText;
 
+    if (operator1 === "+") {
+        return [operand1 + operand2];
+    } else {
+        alert(`unimplemented operator ${operator1}`);
+        throw `unimplemented operator ${operator}. Aborting!`;
+    }
 }
+
 
 function incrementScore() {
 
@@ -129,13 +143,13 @@ function incrementWrongAnswer() {
 
 function displayBigNumbersQuestion1(operand1) {
     document.getElementById('operand1').textContent = operand1;
-    document.getElementById('operator1').textContent = "";
+    document.getElementById('operator1').textContent = "+";
 
 }
 
 function displayBigNumbersQuestion2(operand2) {
     document.getElementById('operand2').textContent = operand2;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator').textContent = "+";
 
 }
 function displayBigNumbersQuestion3(operand3) {
@@ -165,26 +179,26 @@ function displaySmallNumbersQuestion3(operand1) {
 }
 
 function displaySmallNumbersQuestion4(operand2) {
-     document.getElementById('operand2').textContent = operand2;
+    document.getElementById('operand2').textContent = operand2;
     document.getElementById('operator').textContent = "";
 }
 
 function displaySmallNumbersQuestion5(operand3) {
-     document.getElementById('operand3').textContent = operand3;
+    document.getElementById('operand3').textContent = operand3;
     document.getElementById('operator').textContent = "";
 }
 
 function displaySmallNumbersQuestion6(operand4) {
-     document.getElementById('operand4').textContent = operand4;
+    document.getElementById('operand4').textContent = operand4;
     document.getElementById('operator').textContent = "";
 }
 function displaySmallNumbersQuestion7(operand5) {
-     document.getElementById('operand5').textContent = operand5;
+    document.getElementById('operand5').textContent = operand5;
     document.getElementById('operator').textContent = "";
 }
 
 function displaySmallNumbersQuestion8(operand6) {
-     document.getElementById('operand6').textContent = operand6;
+    document.getElementById('operand6').textContent = operand6;
     document.getElementById('operator').textContent = "";
 }
 
@@ -200,26 +214,26 @@ function displaySmallNumbersQuestion10(operand2) {
 }
 
 function displaySmallNumbersQuestion11(operand3) {
-     document.getElementById('operand3').textContent = operand3;
+    document.getElementById('operand3').textContent = operand3;
     document.getElementById('operator').textContent = "";
 }
 
 function displaySmallNumbersQuestion12(operand4) {
-     document.getElementById('operand4').textContent = operand4;
+    document.getElementById('operand4').textContent = operand4;
     document.getElementById('operator').textContent = "";
 }
 
 function displaySmallNumbersQuestion13(operand5) {
-     document.getElementById('operand5').textContent = operand5;
+    document.getElementById('operand5').textContent = operand5;
     document.getElementById('operator').textContent = "";
 }
 function displaySmallNumbersQuestion14(operand6) {
-     document.getElementById('operand6').textContent = operand6;
+    document.getElementById('operand6').textContent = operand6;
     document.getElementById('operator').textContent = "";
 }
 
 function displaySmallNumbersQuestion15(operand1) {
-     document.getElementById('operand1').textContent = operand1;
+    document.getElementById('operand1').textContent = operand1;
     document.getElementById('operator').textContent = "";
 }
 
@@ -249,5 +263,11 @@ function aboutGame() {
     infor.style.border = '1px solid blue';
     infor.style.borderRadius = '10px';
 
+}
+
+function getTarget() {
+    let calculatedAnswer = calculateCorrectAnswer();
+
+    alert(calculatedAnswer);
 
 }
