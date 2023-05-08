@@ -120,11 +120,17 @@ function calculateCorrectAnswer() {
     let operand6 = parseInt(document.getElementById('operand6').innerText);
 
     let operator1 = document.getElementById("operator1").innerText;
+    let operator2 = document.getElementById("operator2").innerText;
+    let operator3 = document.getElementById("operator3").innerText;
 
     if (operator1 === "+") {
         return [operand1 + operand2];
+    } else if (operator2 === "x") {
+        return [operand3 * operand4];
+    } else if (operator3 === "/") {
+        return [operand4 / operand5];
     } else {
-        alert(`unimplemented operator ${operator1}`);
+        alert(`unimplemented operator ${operator}`);
         throw `unimplemented operator ${operator}. Aborting!`;
     }
 }
@@ -149,92 +155,92 @@ function displayBigNumbersQuestion1(operand1) {
 
 function displayBigNumbersQuestion2(operand2) {
     document.getElementById('operand2').textContent = operand2;
-    document.getElementById('operator').textContent = "+";
+    document.getElementById('operator2').textContent = "x";
 
 }
 function displayBigNumbersQuestion3(operand3) {
     document.getElementById('operand3').textContent = operand3;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator3').textContent = "+";
 
 }
 function displayBigNumbersQuestion4(operand4) {
     document.getElementById('operand4').textContent = operand4;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator4').textContent = "+";
 
 }
 function displaySmallNumbersQuestion1(operand5) {
     document.getElementById('operand5').textContent = operand5;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator5').textContent = "+";
 
 }
 function displaySmallNumbersQuestion2(operand6) {
     document.getElementById('operand6').textContent = operand6;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator').textContent = "+";
 
 }
 function displaySmallNumbersQuestion3(operand1) {
     document.getElementById('operand1').textContent = operand1;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator1').textContent = "+";
 
 }
 
 function displaySmallNumbersQuestion4(operand2) {
     document.getElementById('operand2').textContent = operand2;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator2').textContent = "x";
 }
 
 function displaySmallNumbersQuestion5(operand3) {
     document.getElementById('operand3').textContent = operand3;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator3').textContent = "+";
 }
 
 function displaySmallNumbersQuestion6(operand4) {
     document.getElementById('operand4').textContent = operand4;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator4').textContent = "+";
 }
 function displaySmallNumbersQuestion7(operand5) {
     document.getElementById('operand5').textContent = operand5;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator5').textContent = "+";
 }
 
 function displaySmallNumbersQuestion8(operand6) {
     document.getElementById('operand6').textContent = operand6;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator').textContent = "+";
 }
 
 function displaySmallNumbersQuestion9(operand1) {
     document.getElementById('operand1').textContent = operand1;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator1').textContent = "+";
 
 }
 function displaySmallNumbersQuestion10(operand2) {
     document.getElementById('operand2').textContent = operand2;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator2').textContent = "x";
 
 }
 
 function displaySmallNumbersQuestion11(operand3) {
     document.getElementById('operand3').textContent = operand3;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator3').textContent = "+";
 }
 
 function displaySmallNumbersQuestion12(operand4) {
     document.getElementById('operand4').textContent = operand4;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator4').textContent = "+";
 }
 
 function displaySmallNumbersQuestion13(operand5) {
     document.getElementById('operand5').textContent = operand5;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator5').textContent = "+";
 }
 function displaySmallNumbersQuestion14(operand6) {
     document.getElementById('operand6').textContent = operand6;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator').textContent = "+";
 }
 
 function displaySmallNumbersQuestion15(operand1) {
     document.getElementById('operand1').textContent = operand1;
-    document.getElementById('operator').textContent = "";
+    document.getElementById('operator1').textContent = "+";
 }
 
 
