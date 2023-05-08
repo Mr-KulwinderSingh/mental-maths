@@ -98,9 +98,7 @@ body {
     width: 50%;
     margin: 0 auto;
     place-items: center;
-    border: 1px solid red;
-
-
+    border: ;
 }
 
 #operator1,
@@ -109,7 +107,7 @@ body {
 #operator4,
 #operator5 {
 
-    display: ;
+    display: none;
 }
 
 
@@ -175,13 +173,24 @@ body {
 
 }
 
-.third-small-digit-generator {
+.target-label {
+    font-size: 75%;
 
-    display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    margin-bottom: 10px;
+    display: flex;
 }
+
+.trgt {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    height: 25px;
+
+}
+
 
 .sbmt-btn-green {
 

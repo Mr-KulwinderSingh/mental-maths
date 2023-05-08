@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    runGame("");
+  
 
 
 
@@ -37,20 +37,7 @@ function runGame(gameType) {
     let num4 = Math.floor(Math.random() * 25) + 90;
     let num5 = Math.floor(Math.random() * 10) + 1;
     let num6 = Math.floor(Math.random() * 10) + 1;
-    let num7 = Math.floor(Math.random() * 10) + 1;
-    let num8 = Math.floor(Math.random() * 10) + 1;
-    let num9 = Math.floor(Math.random() * 10) + 1;
-    let num10 = Math.floor(Math.random() * 10) + 1;
-    let num11 = Math.floor(Math.random() * 10) + 1;
-    let num12 = Math.floor(Math.random() * 10) + 1;
-    let num13 = Math.floor(Math.random() * 10) + 1;
-    let num14 = Math.floor(Math.random() * 10) + 1;
-    let num15 = Math.floor(Math.random() * 10) + 1;
-    let num16 = Math.floor(Math.random() * 10) + 1;
-    let num17 = Math.floor(Math.random() * 10) + 1;
-    let num18 = Math.floor(Math.random() * 10) + 1;
-    let num19 = Math.floor(Math.random() * 10) + 1;
-
+    
 
 
 
@@ -72,31 +59,21 @@ function runGame(gameType) {
     } else if (gameType === "small-number2") {
         displaySmallNumbersQuestion2(num6);
     } else if (gameType === "small-number3") {
-        displaySmallNumbersQuestion3(num7);
+        displaySmallNumbersQuestion3(num5);
     } else if (gameType === "small-number4") {
-        displaySmallNumbersQuestion4(num8);
+        displaySmallNumbersQuestion4(num6);
     } else if (gameType === "small-number5") {
-        displaySmallNumbersQuestion5(num9);
+        displaySmallNumbersQuestion5(num5);
     } else if (gameType === "small-number6") {
-        displaySmallNumbersQuestion6(num10);
+        displaySmallNumbersQuestion6(num6);
     } else if (gameType === "small-number7") {
-        displaySmallNumbersQuestion7(num11);
+        displaySmallNumbersQuestion7(num5);
     } else if (gameType === "small-number8") {
-        displaySmallNumbersQuestion8(num12);
+        displaySmallNumbersQuestion8(num6);
     } else if (gameType === "small-number9") {
-        displaySmallNumbersQuestion9(num13);
+        displaySmallNumbersQuestion9(num5);
     } else if (gameType === "small-number10") {
-        displaySmallNumbersQuestion10(num14);
-    } else if (gameType === "small-number11") {
-        displaySmallNumbersQuestion11(num15);
-    } else if (gameType === "small-number12") {
-        displaySmallNumbersQuestion12(num16);
-    } else if (gameType === "small-number13") {
-        displaySmallNumbersQuestion13(num17);
-    } else if (gameType === "small-number14") {
-        displaySmallNumbersQuestion14(num18);
-    } else if (gameType === "small-number15") {
-        displaySmallNumbersQuestion15(num19);
+        displaySmallNumbersQuestion10(num6);
     } else {
         alert(`unknown game type: ${gameType}`);
         throw `unknown game type ${gameType}. Aborting!`;
@@ -122,13 +99,15 @@ function calculateCorrectAnswer() {
     let operator1 = document.getElementById("operator1").innerText;
     let operator2 = document.getElementById("operator2").innerText;
     let operator3 = document.getElementById("operator3").innerText;
+    let operator5 = document.getElementById("operator5").innerText;
+
 
     if (operator1 === "+") {
         return [operand1 + operand2];
-    } else if (operator2 === "x") {
+    } else if (operator3 === "x") {
         return [operand3 * operand4];
-    } else if (operator3 === "/") {
-        return [operand4 / operand5];
+    } else if (operator === "+") {
+        return [operand5 + operand6];
     } else {
         alert(`unimplemented operator ${operator}`);
         throw `unimplemented operator ${operator}. Aborting!`;
@@ -155,12 +134,12 @@ function displayBigNumbersQuestion1(operand1) {
 
 function displayBigNumbersQuestion2(operand2) {
     document.getElementById('operand2').textContent = operand2;
-    document.getElementById('operator2').textContent = "x";
+    document.getElementById('operator2').textContent = "+";
 
 }
 function displayBigNumbersQuestion3(operand3) {
     document.getElementById('operand3').textContent = operand3;
-    document.getElementById('operator3').textContent = "+";
+    document.getElementById('operator3').textContent = "x";
 
 }
 function displayBigNumbersQuestion4(operand4) {
@@ -177,6 +156,7 @@ function displaySmallNumbersQuestion2(operand6) {
     document.getElementById('operand6').textContent = operand6;
     document.getElementById('operator').textContent = "+";
 
+   
 }
 function displaySmallNumbersQuestion3(operand1) {
     document.getElementById('operand1').textContent = operand1;
@@ -191,7 +171,7 @@ function displaySmallNumbersQuestion4(operand2) {
 
 function displaySmallNumbersQuestion5(operand3) {
     document.getElementById('operand3').textContent = operand3;
-    document.getElementById('operator3').textContent = "+";
+    document.getElementById('operator3').textContent = "x";
 }
 
 function displaySmallNumbersQuestion6(operand4) {
@@ -206,6 +186,7 @@ function displaySmallNumbersQuestion7(operand5) {
 function displaySmallNumbersQuestion8(operand6) {
     document.getElementById('operand6').textContent = operand6;
     document.getElementById('operator').textContent = "+";
+   
 }
 
 function displaySmallNumbersQuestion9(operand1) {
@@ -218,32 +199,6 @@ function displaySmallNumbersQuestion10(operand2) {
     document.getElementById('operator2').textContent = "x";
 
 }
-
-function displaySmallNumbersQuestion11(operand3) {
-    document.getElementById('operand3').textContent = operand3;
-    document.getElementById('operator3').textContent = "+";
-}
-
-function displaySmallNumbersQuestion12(operand4) {
-    document.getElementById('operand4').textContent = operand4;
-    document.getElementById('operator4').textContent = "+";
-}
-
-function displaySmallNumbersQuestion13(operand5) {
-    document.getElementById('operand5').textContent = operand5;
-    document.getElementById('operator5').textContent = "+";
-}
-function displaySmallNumbersQuestion14(operand6) {
-    document.getElementById('operand6').textContent = operand6;
-    document.getElementById('operator').textContent = "+";
-}
-
-function displaySmallNumbersQuestion15(operand1) {
-    document.getElementById('operand1').textContent = operand1;
-    document.getElementById('operator1').textContent = "+";
-}
-
-
 
 function myFunction() {
     let play = document.getElementById('play-instructions');
