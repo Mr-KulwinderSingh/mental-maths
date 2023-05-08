@@ -26,19 +26,19 @@
         <div class="question-digits">
 
             <span id="operand1">0</span>
-            <span id="operator1"></span>
+            <span id="operator1" class="calc">x</span>
             <span id="operand2">0</span>
-            <span id="operator2"></span>
+            <span id="operator2">x</span>
             <span id="operand3">0</span>
-            <span id="operator3"></span>
+            <span id="operator3">x</span>
             <span id="operand4">0</span>
-            <span id="operator4"></span>
+            <span id="operator4">x</span>
             <span id="operand5">0</span>
-            <span id="operator5"></span>
+            <span id="operator5">x</span>
             <span id="operand6">0</span>
-            <input id="target" name="target" type="numbers" placeholder="Target">
+
         </div>
-        <div class="digit-btns">
+        <div class="digit-btns-container">
 
             <div class="big-digit-generator">
                 <button data-type="big-number" class="big-btn">Big</button>
@@ -73,7 +73,8 @@
 
             </div>
         </div>
-        <button data-type="submit" class="sbmt-btn-green"> Reset Game!</button>
+        <button data-type="target" class="target-btn">Target</button>
+        <button data-type="submit" class="sbmt-btn-green"> Reset-Game!</button>
         <p class="correct">Correct Ans <span id="scores">0</span></p>
         <p class="incorrect">Incorrect Ans <span id="scores">0</span></p>
     </div>

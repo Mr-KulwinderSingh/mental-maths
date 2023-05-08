@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    runGame("number");
+    runGame("");
 
 
 

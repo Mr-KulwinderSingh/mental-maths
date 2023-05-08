@@ -1,4 +1,6 @@
-body {}
+body {
+    background-color: yellow;
+}
 
 .heading {
 
@@ -15,7 +17,7 @@ body {}
 }
 
 #play-instructions {
-    top: 30px;
+    top: 50px;
     font-size: 50%;
     width: 25%;
     height: 50%;
@@ -54,7 +56,7 @@ body {}
 
 }
 
-#target {
+#target-btn {
 
     height: 35px;
     width: 60px;
@@ -89,14 +91,28 @@ body {}
 
 }
 
-.digit-btns {
+.digit-btns-container {
 
     width: 50%;
     margin: 0 auto;
     place-items: center;
+    border: 1px solid red;
 
 
 }
+
+#operator1,
+#operator2,
+#operator3,
+#operator4,
+#operator5 {
+
+    display: none;
+}
+
+
+
+
 
 #operand1,
 #operand2,
@@ -136,7 +152,7 @@ body {}
 
     height: 30px;
     width: 45px;
-    background: linear-gradient(white, blue);
+    background: linear-gradient(white, rgb(134, 134, 244));
     border-radius: 5px;
     text-align: center;
 
@@ -180,18 +196,5 @@ body {}
 .correct,
 .incorrect {
     font-size: 75%;
-}
-
-.your-answer {
-    display: none;
-}
-
-#answer-box {
-
-    margin-top: 10px;
-    margin-left: 350px;
-    height: 50px;
-    width: 80px;
-    border: 1px solid blue;
-    border-radius: 5px 5px 5px 5px;
+    color: red;
 }
