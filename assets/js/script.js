@@ -32,11 +32,11 @@ document.addEventListener("DOMContentLoaded", function () {
 function runGame(gameType) {
 
     let num1 = Math.floor(Math.random() * 25) + 25;
-    let num2 = Math.floor(Math.random() * 25) + 49;
-    let num3 = Math.floor(Math.random() * 25) + 75;
-    let num4 = Math.floor(Math.random() * 25) + 90;
+    let num2 = Math.floor(Math.random() * 5) + 1;
+    let num3 = Math.floor(Math.random() * 25) + 20;
+    let num4 = Math.floor(Math.random() * 25) + 9;
     let num5 = Math.floor(Math.random() * 10) + 1;
-    let num6 = Math.floor(Math.random() * 10) + 1;
+    let num6 = Math.floor(Math.random() * 10) + 2;
 
 
 
@@ -104,10 +104,6 @@ function calculateCorrectAnswer() {
 
     if (operator1 === "+") {
         return [operand1 * operand2 + operand3 - operand4 + operand5 / operand6];
-    } else if (operator3 === "x") {
-        return [operand3 * operand4];
-    } else if (operator5 === "/") {
-        return [operand5 / operand6];
     } else {
         alert(`unimplemented operator ${operator}`);
         throw `unimplemented operator ${operator}. Aborting!`;
@@ -233,6 +229,8 @@ function aboutGame() {
 function getTarget() {
     let calculatedAnswer = calculateCorrectAnswer();
 
-    document.getElementById("target").innerText = calculatedAnswer;
+    Answer = Math.round(calculatedAnswer);
+
+    document.getElementById("target").innerText = Answer;
 
 }
