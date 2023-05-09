@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-  
+
 
 
 
@@ -37,7 +37,7 @@ function runGame(gameType) {
     let num4 = Math.floor(Math.random() * 25) + 90;
     let num5 = Math.floor(Math.random() * 10) + 1;
     let num6 = Math.floor(Math.random() * 10) + 1;
-    
+
 
 
 
@@ -103,11 +103,11 @@ function calculateCorrectAnswer() {
 
 
     if (operator1 === "+") {
-        return [operand1 + operand2];
+        return [operand1 * operand2 + operand3 - operand4 + operand5 / operand6];
     } else if (operator3 === "x") {
         return [operand3 * operand4];
     } else if (operator5 === "/") {
-        return [ operand5 / operand6];
+        return [operand5 / operand6];
     } else {
         alert(`unimplemented operator ${operator}`);
         throw `unimplemented operator ${operator}. Aborting!`;
@@ -148,17 +148,17 @@ function displayBigNumbersQuestion4(operand4) {
 
 }
 function displaySmallNumbersQuestion1(operand5) {
-    
+
     document.getElementById('operand5').textContent = operand5;
     document.getElementById('operator5').textContent = "/";
 
 }
 function displaySmallNumbersQuestion2(operand6) {
-    
+
     document.getElementById('operand6').textContent = operand6;
     document.getElementById('operator').textContent = "/";
 
-   
+
 }
 function displaySmallNumbersQuestion3(operand1) {
     document.getElementById('operand1').textContent = operand1;
@@ -181,16 +181,16 @@ function displaySmallNumbersQuestion6(operand4) {
     document.getElementById('operator4').textContent = "+";
 }
 function displaySmallNumbersQuestion7(operand5) {
-    
+
     document.getElementById('operand5').textContent = operand5;
     document.getElementById('operator5').textContent = "/";
 }
 
 function displaySmallNumbersQuestion8(operand6) {
-     
+
     document.getElementById('operand6').textContent = operand6;
     document.getElementById('operator').textContent = "/";
-   
+
 }
 
 function displaySmallNumbersQuestion9(operand1) {
@@ -233,6 +233,6 @@ function aboutGame() {
 function getTarget() {
     let calculatedAnswer = calculateCorrectAnswer();
 
-    alert(calculatedAnswer);
+    document.getElementById("target").innerText = calculatedAnswer;
 
 }
