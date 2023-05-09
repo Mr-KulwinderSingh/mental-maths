@@ -208,7 +208,7 @@ function myFunction() {
       multiply or divide to achieve the target given above. if you can get the target within 30 seconds then
        you are the winner against the computer.</p>`;
 
-    play.style.background = 'linear-gradient(yellow, #36eddd)';
+    play.style.background = 'linear-gradient(#f8f6c2, #36eddd)';
     play.style.border = '1px solid blue';
     play.style.borderRadius = '10px';
 
@@ -220,7 +220,7 @@ function aboutGame() {
     infor.innerHTML = `<p>The Mental Maths is a mathematical fun game to play with the numbers.
     The game is designed for younger children age 12 years and under to play & learn basic maths</p>`;
 
-    infor.style.background = 'linear-gradient(yellow, #36eddd)';
+    infor.style.background = 'linear-gradient(#f8f6c2, #36eddd)';
     infor.style.border = '1px solid blue';
     infor.style.borderRadius = '10px';
 
