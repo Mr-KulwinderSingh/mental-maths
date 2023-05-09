@@ -156,7 +156,7 @@ body {
 .big-btn,
 .small-btn {
 
-    height: 30px;
+    height: 35px;
     width: 45px;
     background: linear-gradient(white, rgb(134, 134, 244));
     border-radius: 5px;
@@ -178,25 +178,6 @@ body {
     text-align: center;
 
 }
-
-.target-label {
-    font-size: 75%;
-
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.trgt {
-
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin: auto;
-    height: 25px;
-
-}
-
 
 .sbmt-btn-green {
 
