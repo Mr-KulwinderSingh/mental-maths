@@ -2,6 +2,7 @@
 // As soon as the page will load along with the DOM contents
 // Get the elements and add event listeners to them to start game
 
+
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
 
@@ -15,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
             } else if (this.getAttribute("data-type") === "information") {
                 let infor = this.getAttribute("data-type");
                 aboutGame(infor);
+            } else if (this.getAttribute("data-type") === "refresh") {
+                alert('Would you like to restart the game?');
             } else {
                 let gameType = this.getAttribute("data-type");
                 runGame(gameType);
@@ -30,6 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function runGame(gameType) {
+
+
 
     let num1 = Math.floor(Math.random() * 25) + 25;
     let num2 = Math.floor(Math.random() * 5) + 9;
@@ -193,7 +198,7 @@ function myFunction() {
        <li>If your answer is coming in decimal points not to worry, it is possible to get the answer in the decimal points, 
        just to make it easier the game has rounded off answer.
        </li>
-       <li>After choosing the numbers using human brain try to achieve the given target.
+       <li>After choosing the numbers try to calculate mentally to achieve the given target.
        </li>
        <li> You have to either add, subtract,
       multiply or divide to match the result in the target.
