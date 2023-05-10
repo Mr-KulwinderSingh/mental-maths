@@ -25,25 +25,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         });
     }
-
-
-
-
-
 });
 
 function runGame(gameType) {
 
-
-
     let num1 = Math.floor(Math.random() * 25) + 25;
-    let num2 = Math.floor(Math.random() * 5) + 9;
+    let num2 = Math.floor(Math.random() * 5) + 2;
     let num3 = Math.floor(Math.random() * 25) + 20;
     let num4 = Math.floor(Math.random() * 25) + 9;
     let num5 = Math.floor(Math.random() * 10) + 1;
     let num6 = Math.floor(Math.random() * 10) + 2;
-
-
 
     if (gameType === "big-number") {
         displayBigNumber1(num1);
@@ -77,9 +68,6 @@ function runGame(gameType) {
         alert(`unknown game type: ${gameType}`);
         throw `unknown game type ${gameType}. Aborting!`;
     }
-
-
-
 }
 
 function calculateCorrectAnswer() {
@@ -94,7 +82,7 @@ function calculateCorrectAnswer() {
 
 
     if (operator1 === "+") {
-        return [operand1 * operand2 + operand3 - operand4 + operand5 / operand6];
+        return [operand1 * operand2 + operand3 - operand4 + operand5 + operand6];
     } else {
         alert(`unimplemented operator ${operator}`);
         throw `unimplemented operator ${operator}. Aborting!`;
