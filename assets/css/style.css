@@ -1,11 +1,11 @@
 body {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 
 body {
     overflow-x: hidden;
-    font-family: Roboto;
+    font-family: Roboto slab;
     font-weight: 200;
     color: #3a3a3a;
 }
@@ -42,6 +42,7 @@ body {
     justify-content: center;
     letter-spacing: 2px;
     font-size: 150%;
+    list-style-type: none;
 }
 
 #menu li {
@@ -49,12 +50,13 @@ body {
     list-style-type: none;
     text-decoration: none;
     color: inherit;
-
+    margin: 10px;
+    font-family: roboto slab;
 }
 
 
 /* Two main buttons of the users to get information about the game and play instructions */
-#how-to {
+#how {
     height: 30px;
     float: left;
     color: rgb(0, 89, 255);
@@ -62,10 +64,15 @@ body {
 
 #play-instructions {
 
-    top: 20px;
+    top: 30px;
+    float: left;
     font-size: 50%;
     height: 50%;
     color: rgb(0, 89, 255);
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 #about-game {
@@ -77,8 +84,6 @@ body {
 }
 
 #info {
-
-
     top: 30px;
     float: right;
 
@@ -200,17 +205,9 @@ body {
 
 }
 
-.sbmt-btn {
-
-    height: 40px;
-    border-radius: 5px 5px 5px 5px;
-    background: linear-gradient(white, rgb(134, 134, 244));
-    align-items: center;
-    display: flex;
-    margin: 0 auto;
-}
-
+.sbmt-btn,
 .refresh-btn {
+
     height: 40px;
     border-radius: 5px 5px 5px 5px;
     background: linear-gradient(white, rgb(134, 134, 244));
