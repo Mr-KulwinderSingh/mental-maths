@@ -105,7 +105,7 @@ function calculateCorrectAnswer() {
     if (operator1 === "+") {
         return [operand1 * operand2 + operand3 - operand4 + operand5 / operand6];
     } else {
-        alert(`unimplemented operator ${operator}`);
+        alert(`You need to choose at least 6 digits to play`);
         throw `unimplemented operator ${operator}. Aborting!`;
     }
 }
@@ -203,10 +203,23 @@ function displaySmallNumbersQuestion10(operand2) {
 function myFunction() {
     let play = document.getElementById('play-instructions');
 
-    play.innerHTML = `<p>To start the game you have to choose the numbers big ones are between 25 and 100
-     and the small ones are between 1 and 10. After chosing the numbers you then have to either add, subtract,
-      multiply or divide to achieve the target given above. if you can get the target within 30 seconds then
-       you are the winner against the computer.</p>`;
+    play.innerHTML = `<p>To play the game please follow the steps. 
+       <ol>
+       <li>Choose the combination of six numbers, big and small. 3 maximum big numbers and 3 small or you can 
+       have a choice of all small, it's your choice.
+       </li>
+       <li>If your answer is coming in decimal points not to worry, it is possible to get the answer in the decimal points, 
+       just to make it easier the game has rounded off answer.
+       </li>
+       <li>After choosing the numbers using human brain try to achieve the given target.
+       </li>
+       <li> You have to either add, subtract,
+      multiply or divide to match the result in the target.
+       </li>
+       <li>If you can get the target within 30 seconds then
+       you are the winner and your mathematical skills are excellent.
+       </li>
+       </ol></p>`;
 
     play.style.background = 'linear-gradient(#f8f6c2, #36eddd)';
     play.style.border = '1px solid blue';
@@ -217,8 +230,9 @@ function myFunction() {
 function aboutGame() {
     let infor = document.getElementById('info');
 
-    infor.innerHTML = `<p>The Mental Maths is a mathematical fun game to play with the numbers.
-    The game is designed for younger children age 12 years and under to play & learn basic maths</p>`;
+    infor.innerHTML = `<p>The Mental Maths is a mathematical fun game to play with the numbers. 
+    The game is designed for younger children to play & learn basic maths, but any person of any age can play. 
+    It is all about your mathematical knowledge and how challenging human brain is? Use of calculator is not recomended for this game. </p>`;
 
     infor.style.background = 'linear-gradient(#f8f6c2, #36eddd)';
     infor.style.border = '1px solid blue';
@@ -232,5 +246,9 @@ function getTarget() {
     Answer = Math.round(calculatedAnswer);
 
     document.getElementById("target").innerText = Answer;
+
+    
+        alert("Please choose six digits to play");
+    
 
 }
