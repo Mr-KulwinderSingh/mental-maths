@@ -2,6 +2,24 @@ body {
     padding-top: 50px;
 }
 
+
+body {
+    overflow-x: hidden;
+    font-family: Roboto;
+    font-weight: 200;
+    color: #3a3a3a;
+}
+
+body {
+
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Mental Maths is a main heading and title of the game */
+
 .heading {
 
     font-size: 90%;
@@ -17,13 +35,13 @@ body {
 
 #menu {
 
-    margin: 10px;
+    margin: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     letter-spacing: 2px;
     font-size: 150%;
-    
+
 
 }
 
@@ -32,16 +50,19 @@ body {
     list-style-type: none;
     text-decoration: none;
     color: inherit;
+
 }
 
+
+/* Two main buttons of the users to get information about the game and play instructions */
 #how-to {
 
-    
+
     height: 30px;
     float: left;
     color: rgb(0, 89, 255);
-   
-    
+
+
 }
 
 #play-instructions {
@@ -60,7 +81,7 @@ body {
     height: 30px;
     float: right;
     color: rgb(0, 89, 255);
-    
+
 }
 
 #info {
@@ -80,6 +101,8 @@ body {
 
 
 }
+
+/* Game area is a heart of the game where the main structure has been built */
 
 .game-area {
 
@@ -104,6 +127,9 @@ body {
 
 }
 
+
+/* Main buttons of the game to generate the digits  */
+
 .digit-btns-container {
 
     width: 50%;
@@ -111,6 +137,8 @@ body {
     place-items: center;
 
 }
+
+/* All the operators are not in use but they have been placed on the right place and can be changed if required */
 
 #operator1,
 #operator2,
@@ -208,6 +236,7 @@ body {
 
 
 }
+
 .social-networks {
 
     text-align: center;
@@ -215,8 +244,8 @@ body {
     align-items: center;
     justify-content: center;
     margin: 10px;
-   
-    
+
+
 }
 
 .social-networks li {
@@ -229,4 +258,10 @@ body {
     font-size: 120%;
     padding: 2%;
     margin: 5px;
+}
+
+.gen-info {
+
+    font-size: 60%;
+    text-align: center;
 }
