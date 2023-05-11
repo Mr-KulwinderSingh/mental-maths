@@ -3,6 +3,7 @@
 
 
 <br>
+
 ![responsiveness](https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/c3287df1-83e2-43bc-85c1-1715591a3136)
 
 <br>
@@ -10,9 +11,9 @@
 Welcome to [Mental Maths!](https://mr-kulwindersingh.github.io/mental-maths/) game of numbers, this game is based on the concept of UK's popular show "Countdown" which usually broadcast on channel 4. But compare to that this game is much easier and made to learn and practice badsic maths. There is no hard mathematical formula is needed for this. Generally this game is played between two players to check their ability how good they are in maths. But a solo player can also play, so anybody who have interest in maths, are welcome to play with numbers and enjoy. Very simple instructions are also provided together with the more inforamtion about the game.
 
 
-## ** Table of Contents**
+## **Table of Contents**
 
-    [Site Goal](#Site-Goal)
+    [Site Goal.](#Site-Goal)
     [features](#Features)
     [Responsiveness](#Responsiveness)
     [Color Scheme](#color-scheme)
@@ -31,7 +32,7 @@ Welcome to [Mental Maths!](https://mr-kulwindersingh.github.io/mental-maths/) ga
 
 
 
-
+<a name="Site Goal"></a>
 # Site Goal 
 
 This game is developed with the aim to have fun with the easy and handy maths in the free time, there is no age restrictions and not very tough. The user can be any age group could be solo player or group of two or more.

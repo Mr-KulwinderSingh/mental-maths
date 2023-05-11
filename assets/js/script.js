@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 let infor = this.getAttribute("data-type");
                 aboutGame(infor);
             } else if (this.getAttribute("data-type") === "refresh") {
+
             } else {
                 let gameType = this.getAttribute("data-type");
                 runGame(gameType);
@@ -94,7 +95,7 @@ function getTarget() {
     document.getElementById("target").innerText = Math.round(calculatedAnswer);
 
 
-    alert("If you have chosen 6 numbers Good Luck 🤞 ");
+    alert("Pck at least 6 digits to continue & Good Luck 🤞 ");
 
 
 }
