@@ -1,5 +1,7 @@
 # Mental Maths!
 
+<img src="/assets/images/Mentla Maths!.jpeg">
+
 Welcome to [Mental Maths!](https://mr-kulwindersingh.github.io/mental-maths/) game of numbers, this game is based on the concept of UK's popular show "Countdown" which usually broadcast on channel 4. But compare to that this game is much easier and made to learn and practice badsic maths. There is no hard mathematical formula is needed for this. Generally this game is played between two players to check their ability how good they are in maths. But a solo player can also play, so anybody who have interest in maths, are welcome to play with numbers and enjoy. Very simple instructions are also provided together with the more inforamtion about the game.
 
 
