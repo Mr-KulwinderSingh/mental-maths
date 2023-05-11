@@ -76,12 +76,14 @@ All the social media links are clear and working, the icons have been taken via 
 # Testing
 
 All the codes have been tested through the W3C and Jshint 
-html test via W3C
+
+html test via [W3C validator](https://validator.w3.org/)
+
 
 <img width="1680" alt="W3chtml" src="https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/acc8e6af-8ac7-49c0-a8b2-499a146e85f6">
 
 
-CSS test via W3C
+CSS test via W3C [W3C Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
 
 <img width="1680" alt="W3CCSS" src="https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/505f9c07-097c-4a59-a7db-1dcfba46a30b">
 
@@ -93,3 +95,64 @@ Lighthouse report shows not any major error, all the know errors were removed be
 ![95F1F01D-631D-4BC1-B787-5866586E320F_1_201_a](https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/03367f1c-0d99-4965-b404-ab7d311ed791)
 
 
+# Jshint [Jshint Validator ](https://jshint.com/)
+
+Testing via Jshint has been done and found the one warning, and undefined variables but other than that there is not major errors found. 
+
+<img width="1680" alt="Screenshot 2023-05-11 at 19 24 40" src="https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/d5e583a9-4f1b-4d69-899e-b0576cef8b69">
+
+
+## Unfixed Bugs or Errors
+
+As given per warning by Jshint I would look at it and fix it in future. 
+
+
+# Testing Stories 
+
+As a first time user the site is opened a nice warm light yellow color, it has a layout to attract and a feeling of a kind of a game atmosphere, which is presented by a clear design, further there are options to move between the Home page and About Game easy navigation and quick and easily accessible buttons.
+
+<ul>
+<li>At the start a nice and attractive look, the title Mental Maths! this gives a hint the game is related to some mathematical operations.</li>
+<li>The buttons has name and question digit number printed on them, via tapping the button and seeing the result in the output user get comfortable what is happening and what is next.</li>
+<li>All the buttons are in the middle of the page and close to each other, easy to use on the small device as well.</li>
+<li> Name of the buttons are appropriate according to the user understanding. Get-the-Target  and Reset are meaningful names.</li>
+</lu>
+
+As a first time user I want to see what other options are given and are they somewhere related to the social media, so for that purpose user friendly and iconic social media links available on the bottom of the page. Once the user likes the concept or the game he would definitely come back to it.
+
+# Deployment 
+
+Site was deployed by Github and it is live and running successfully. Following steps were used to deploy the site
+
+<ol>
+<li>First sign in to the github, go main page.
+</li>
+<li>Click on the top right corner there are three icons, click on the right side one, the dropdown menu will open. 
+</li>
+<li>Choose the repository[Mental Maths!](https://github.com/Mr-KulwinderSingh/mental-maths) you want to open.
+</li>
+<li>Open the repository and go to the setting button.
+</li>
+<li>From the setting button go to the page on the left hand side when you click on that it will show three heading options, Github Pages, Build or Deployment and Visibility.
+</li>
+<li>Choose the sub heading of the Build and Deployment option says Branch underneath of that there are two buttons none and save. 
+</li>
+<li>Click on none it will open and you have to chose main branch and save and you are done.
+</li>
+<li>
+</li> After that click on the refresh button and you will see on the same heading it says "your site is being built"
+<li>If you would come back after a while on the same page and refresh it says you site is live. You can click on that and see it straightaway.
+</li>
+</ol>
+
+The live site can be found here <https://mr-kulwindersingh.github.io/mental-maths/>
+
+# Content 
+
+<ul>The original idea is an influence from the UK's popular show "Countdown", it is very interesting topic and found it very much related to this project as JavaScript gave the opportunity to create something challenging. Which I loved to do</ul>
+<ul>[Youtube](youtube.com) you can find a short clip of the real "Countdwon" show on youtube channel.</ul>
+<ul>[Fontawesome](fontawesome.com)The icons of social media are more popular than their names so they have been taken from fontawesome.</ul>
+
+## Credits 
+
+Code Institute’s lessons and challenges itself is strong inspiration although doing JavaScript felt lost sometimes, and I am very thankful to my fellow students who helped me through slack, also time to time I got technical help from the Tutor Support by the [CodeInstitute](codeinstitute.net) Other than that [Google](www.google.com) and [Youtube](youtube.com) are very useful sources throught the whole project.

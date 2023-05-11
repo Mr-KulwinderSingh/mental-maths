@@ -11,13 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
             if (this.getAttribute("data-type") === "submit") {
                 getTarget();
             } else if (this.getAttribute("data-type") === "How-to-play") {
-                let play = this.getAttribute("data-type");
                 myFunction(play);
             } else if (this.getAttribute("data-type") === "information") {
-                let infor = this.getAttribute("data-type");
                 aboutGame(infor);
             } else if (this.getAttribute("data-type") === "refresh") {
-                alert('Would you like to restart the game?');
+
             } else {
                 let gameType = this.getAttribute("data-type");
                 runGame(gameType);
@@ -65,8 +63,8 @@ function runGame(gameType) {
     } else if (gameType === "small-number10") {
         displaySmallNumber10(num6);
     } else {
-        alert(`unknown game type: ${gameType}`);
-        throw `unknown game type ${gameType}. Aborting!`;
+
+        throw `unknown game type. Aborting!`;
     }
 }
 
@@ -84,7 +82,7 @@ function calculateCorrectAnswer() {
     if (operator1 === "+") {
         return [operand1 * operand2 + operand3 - operand4 + operand5 + operand6];
     } else {
-        alert(`unimplemented operator`);
+
         throw `unimplemented operator. Aborting!`;
     }
 }
