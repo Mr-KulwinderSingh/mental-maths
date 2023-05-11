@@ -1,39 +1,15 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mental Maths!
 
-Welcome,
+Welcome to [Mental Maths!](https://mr-kulwindersingh.github.io/mental-maths/) game of numbers, this game is based on the concept of UK's popular show "Countdown" which usually broadcast on channel 4. But compare to that this game is much easier and made to learn and practice badsic maths. There is no hard mathematical formula is needed for this. Generally this game is played between two players to check their ability how good they are in maths. But a solo player can also play, so anybody who have interest in maths, are welcome to play with numbers and enjoy. Very simple instructions are also provided together with the more inforamtion about the game.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+Mental Maths works through the javaScript various methods and functions, but not getting too heavy on java, it is kind of good combination of Java and simple HTML and CSS design and targets the audience who love maths but not too much so that cannot handle. Basic maths who everybody studies in the their school time addition, multiplication, division and subtraction, by this anybody would love to have a little challenge with their head. Basic design of the game is aiming the younger children 12 years but anybody of any age can play this game.
 
-## Codeanywhere Reminders
+# Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+As the design is simple and attractive, in the game very simple and light theme has been used which is a contrast of light yellow "rgb(248, 246, 194)" and light blue rgb(0, 89, 255) colour. Throught the whole game limited number of colour have been used to keep the design simple and attractive.
 
-`python3 -m http.server`
+A simple and clear font [Roboto Slab](https://fonts.google.com/specimen/Roboto) have been used which is imported from the google fonts, this font is not only very clear it's light weight 200 has a nice look as well. In case this font will not load tha font fall has a back up as sans-serif font.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
 
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
