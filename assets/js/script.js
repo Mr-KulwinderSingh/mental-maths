@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
             if (this.getAttribute("data-type") === "submit") {
                 getTarget();
             } else if (this.getAttribute("data-type") === "How-to-play") {
+                let play = this.getAttribute("data-type");
                 myFunction(play);
             } else if (this.getAttribute("data-type") === "information") {
+                let infor = this.getAttribute("data-type");
                 aboutGame(infor);
             } else if (this.getAttribute("data-type") === "refresh") {
-
             } else {
                 let gameType = this.getAttribute("data-type");
                 runGame(gameType);

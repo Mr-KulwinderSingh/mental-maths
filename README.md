@@ -2,10 +2,35 @@
 
 
 
+<br>
 ![responsiveness](https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/c3287df1-83e2-43bc-85c1-1715591a3136)
 
+<br>
 
 Welcome to [Mental Maths!](https://mr-kulwindersingh.github.io/mental-maths/) game of numbers, this game is based on the concept of UK's popular show "Countdown" which usually broadcast on channel 4. But compare to that this game is much easier and made to learn and practice badsic maths. There is no hard mathematical formula is needed for this. Generally this game is played between two players to check their ability how good they are in maths. But a solo player can also play, so anybody who have interest in maths, are welcome to play with numbers and enjoy. Very simple instructions are also provided together with the more inforamtion about the game.
+
+
+## ** Table of Contents**
+
+    [Site Goal](#Site-Goal)
+    [features](#Features)
+    [Responsiveness](#Responsiveness)
+    [Color Scheme](#color-scheme)
+    [Fonts](#fonts)
+    [Imagery](#imagery)
+    [Main Heading](#main-heading)
+    [Welcome Message](#welcome-message)
+    [Game Area](#game-area)
+    [social Media Links](#social-media-links)
+    [Testing](#testing)
+    [Unfixed Bugs or Errors](#unfixed-bugs-or-errors)
+    [User Testing Stories](#user-testing-stories)
+    [Deployment ](#deployment)
+    [Content](#content)
+    [Credit](#credits)
+
+
+
 
 # Site Goal 
 
@@ -88,26 +113,26 @@ CSS test via W3C [W3C Validator](https://jigsaw.w3.org/css-validator/#validate_b
 <img width="1680" alt="W3CCSS" src="https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/505f9c07-097c-4a59-a7db-1dcfba46a30b">
 
 
-# Lighthouse Testing
+## Lighthouse Testing
 
 Lighthouse report shows not any major error, all the know errors were removed before deployment.
 
 ![95F1F01D-631D-4BC1-B787-5866586E320F_1_201_a](https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/03367f1c-0d99-4965-b404-ab7d311ed791)
 
 
-# Jshint [Jshint Validator ](https://jshint.com/)
+## Jshint [Jshint Validator ](https://jshint.com/)
 
 Testing via Jshint has been done and found the one warning, and undefined variables but other than that there is not major errors found. 
 
 <img width="1680" alt="Screenshot 2023-05-11 at 19 24 40" src="https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/d5e583a9-4f1b-4d69-899e-b0576cef8b69">
 
 
-## Unfixed Bugs or Errors
+# Unfixed Bugs or Errors
 
 As given per warning by Jshint I would look at it and fix it in future. 
 
 
-# Testing Stories 
+# User Testing Stories 
 
 As a first time user the site is opened a nice warm light yellow color, it has a layout to attract and a feeling of a kind of a game atmosphere, which is presented by a clear design, further there are options to move between the Home page and About Game easy navigation and quick and easily accessible buttons.
 
@@ -153,6 +178,6 @@ The live site can be found here <https://mr-kulwindersingh.github.io/mental-math
 <ul>[Youtube](youtube.com) you can find a short clip of the real "Countdwon" show on youtube channel.</ul>
 <ul>[Fontawesome](fontawesome.com)The icons of social media are more popular than their names so they have been taken from fontawesome.</ul>
 
-## Credits 
+# Credits 
 
-Code Institute’s lessons and challenges itself is strong inspiration although doing JavaScript felt lost sometimes, and I am very thankful to my fellow students who helped me through slack, also time to time I got technical help from the Tutor Support by the [CodeInstitute](codeinstitute.net) Other than that [Google](www.google.com) and [Youtube](youtube.com) are very useful sources throught the whole project.
+Code Institute’s lessons and challenges itself is strong inspiration although doing JavaScript felt lost sometimes, and I am very thankful to my fellow students who helped me through slack, also time to time I got technical help from the Tutor Support by the [CodeInstitute](https://codeinstitute.net/ie/) Other than that [Google](https://www.google.com/) and [Youtube](https://www.youtube.com/) are very useful sources throught the whole project.
