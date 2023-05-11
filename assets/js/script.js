@@ -84,8 +84,8 @@ function calculateCorrectAnswer() {
     if (operator1 === "+") {
         return [operand1 * operand2 + operand3 - operand4 + operand5 + operand6];
     } else {
-        alert(`unimplemented operator ${operator}`);
-        throw `unimplemented operator ${operator}. Aborting!`;
+        alert(`unimplemented operator`);
+        throw `unimplemented operator. Aborting!`;
     }
 }
 

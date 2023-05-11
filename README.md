@@ -63,13 +63,33 @@ When the user goes on the about game page, a little warm welcome and and a brief
 
 ![Welcome msg](https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/a254bf27-7c99-4518-ba5c-e7ab3116dccc)
 
+# Game Area
+
+The space created to play game is organised in the heart of the page and clear and easily understandtable, all the digits to choose, buttons area,giving the result in the red color makes it different and clear. size of the buttons and digits is designed user friendly.
+
+![Buttons](https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/3eec5d53-5309-44f7-9cfa-bd319662c82f)
+
+# Social Media Links
+
+All the social media links are clear and working, the icons have been taken via [fontawesome](http://fontawesome.com)
 
 # Testing
 
-all the codes have been tested through the W3C and Jshint 
+All the codes have been tested through the W3C and Jshint 
 html test via W3C
 
 <img width="1680" alt="W3chtml" src="https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/acc8e6af-8ac7-49c0-a8b2-499a146e85f6">
 
+
+CSS test via W3C
+
+<img width="1680" alt="W3CCSS" src="https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/505f9c07-097c-4a59-a7db-1dcfba46a30b">
+
+
+# Lighthouse Testing
+
+Lighthouse report shows not any major error, all the know errors were removed before deployment.
+
+![95F1F01D-631D-4BC1-B787-5866586E320F_1_201_a](https://github.com/Mr-KulwinderSingh/mental-maths/assets/124357266/03367f1c-0d99-4965-b404-ab7d311ed791)
 
 
