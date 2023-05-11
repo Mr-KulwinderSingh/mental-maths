@@ -178,7 +178,7 @@ function displaySmallNumber10(operand2) {
 function myFunction() {
     let play = document.getElementById('play-instructions');
 
-    play.innerHTML = `<p>To play the game please follow the steps. 
+    play.innerHTML = `<p> 
        <ol>
        <li>Choose the combination of six numbers, big and small. 3 maximum big numbers and 3 small or you can 
        have a choice of all small, it's your choice.

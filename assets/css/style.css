@@ -123,7 +123,7 @@ body {
 
     position: relative;
     Border-radius: 25px;
-    background-color: #f8f6c2;
+    background-color: rgb(248, 246, 194);
 
 
 }
@@ -277,6 +277,12 @@ body {
     .gen-info {
 
         font-size: 45%;
+    }
+
+    #how,
+    #about-game {
+
+        margin-bottom: 20px;
     }
 
 
