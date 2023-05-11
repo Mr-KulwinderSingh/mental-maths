@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;
     font-family: Roboto slab;
     font-weight: 200;
-    color: #3a3a3a;
+
 }
 
 body {
@@ -117,7 +117,7 @@ body {
     font-size: 200%;
     font-family: 'Roboto Slab', sans-serif;
 
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     color: rgb(0, 89, 255);
     box-shadow: 5px 5px 5px 5px;
 
@@ -188,7 +188,7 @@ body {
 
     height: 35px;
     width: 45px;
-    background: linear-gradient(white, rgb(134, 134, 244));
+    background: linear-gradient(rgb(255, 255, 255), rgb(134, 134, 244));
     border-radius: 5px;
     text-align: center;
 
@@ -214,7 +214,7 @@ body {
 
     height: 40px;
     border-radius: 5px 5px 5px 5px;
-    background: linear-gradient(white, rgb(134, 134, 244));
+    background: linear-gradient(rgb(255, 255, 255), rgb(134, 134, 244));
     align-items: center;
     display: flex;
     margin: 0 auto;
@@ -223,8 +223,8 @@ body {
 #target {
     width: 50px;
     font-size: 75%;
-    color: red;
-    border: 1px solid red;
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 5px;
     align-items: center;
     display: flex;
@@ -264,7 +264,7 @@ body {
 
     font-size: 60%;
     text-align: center;
-    height: ;
+
 }
 
 @media screen and (max-width: 800px) {
