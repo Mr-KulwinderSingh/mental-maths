@@ -95,7 +95,7 @@ function getTarget() {
     document.getElementById("target").innerText = Math.round(calculatedAnswer);
 
 
-    alert("Pck at least 6 digits to continue & Good Luck 🤞 ");
+    alert("Have you picked 6 digits? Good luck 🤞");
 
 
 }
